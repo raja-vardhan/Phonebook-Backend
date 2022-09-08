@@ -1,0 +1,28 @@
+{
+  "name": "phonebook-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raja-vardhan/Phonebook-Backend.git"
+  },
+  "author": "Raja Vardhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raja-vardhan/Phonebook-Backend/issues"
+  },
+  "homepage": "https://github.com/raja-vardhan/Phonebook-Backend#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "morgan": "^1.10.0"
+  }
+}
